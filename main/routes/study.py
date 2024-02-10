@@ -7,13 +7,13 @@ study = Blueprint('study', __name__)
 @study.route('/create_study_session', methods=['POST'])
 def create_study_session():
     data = request.get_json()
-    student_id = data.get('student_id')
+    student_email = data.get('student_email')
     goals = data.get('goals')
     study_interval = data.get('study_interval')
     break_interval = data.get('break_interval')
 
     # Create a new study session
-    session = Session(id=None, student_id=student_id, goals=goals, study_interval=study_interval,
+    session = Session(email=None, student_email=student_email, goals=goals, study_interval=study_interval,
                       break_interval=break_interval)
 
     # Add the session to the student's data

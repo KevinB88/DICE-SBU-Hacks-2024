@@ -1,7 +1,8 @@
 class Student:
-    def __init__(self, id, name):
-        self.id = id
+    def __init__(self, email, name, courses):
+        self.email = email
         self.name = name
+        self.courses = courses
         self.sessions = []
         self.goals = []
         self.commit_history = []

@@ -24,11 +24,11 @@ class StudyTestCase(unittest.TestCase):
 
     def test_create_study_session(self):
         # Create a new student
-        student = Student(id=1, name='Test Student')
+        student = Student(email=1, name='Test Student')
 
         # Define the study session data
         session_data = {
-            'student_id': student.id,
+            'student_email': student.email,
             'goals': ['Read Chapter 1', 'Solve Exercise 1'],
             'study_interval': 25,
             'break_interval': 5

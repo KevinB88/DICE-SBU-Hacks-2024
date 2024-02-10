@@ -1,6 +1,6 @@
 class Student:
-    def __init__(self, id, name):
-        self.id = id
+    def __init__(self, email, name):
+        self.email = email
         self.name = name
         self.sessions = []
         self.goals = []
@@ -20,9 +20,9 @@ class Student:
         # Set the student's goals
         self.goals = goals
 
-    def log_time(self, session_id, time):
+    def log_time(self, session_email, time):
         # Log time for a specific session
-        session = self.sessions[session_id]
+        session = self.sessions[session_email]
         session["time_logged"] = time
 
     def generate_commit_history(self):

@@ -1,7 +1,7 @@
 class Session:
-    def __init__(self, id, student_id, goals, study_interval, break_interval):
-        self.id = id
-        self.student_id = student_id
+    def __init__(self, email, student_email, goals, study_interval, break_interval):
+        self.email = email
+        self.student_email = student_email
         self.goals = goals
         self.study_interval = study_interval
         self.break_interval = break_interval
@@ -19,8 +19,8 @@ class Session:
     def get_commit(self):
         # Generate a commit for the session
         commit = {
-            "id": self.id,
-            "student_id": self.student_id,
+            "email": self.email,
+            "student_email": self.student_email,
             "goals": self.goals,
             "study_interval": self.study_interval,
             "break_interval": self.break_interval,
