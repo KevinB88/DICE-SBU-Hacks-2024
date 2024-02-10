@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Class and Set Timer</title>
+    <link rel="stylesheet" href="study-session-style.css"> <!-- Assuming you have your CSS file -->
+</head>
+<body>
+    <h2>Add a Class</h2>
+    <input type="text" id="classInput" placeholder="Enter class name">
+    <button type="button" onclick="addClass()">Add Class</button>
+
+    <h2>Select a Class and Set a Timer</h2>
+    <form id="classTimeForm">
+        <div>
+            <label for="classSelect">Select a class:</label>
+            <select id="classSelect">
+                <!-- Options will be added here by JavaScript -->
+            </select>
+        </div>
+        <div id="timeInputWrapper">
+            <label for="timeInput">Set time:</label>
+            <input id="timeInput" type="number" min="1" placeholder="Enter time">
+            <span>minutes</span>
+        </div>
+        <button type="button" onclick="startTimer()">Start Timer</button>
+        <button type="button" id="pauseButton" onclick="togglePause()">Pause</button>
+    </form>
+    <div id="timerOutput">00:00</div>
+
+    <script src="study-session-logic.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>

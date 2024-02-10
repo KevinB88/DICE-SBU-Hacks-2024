@@ -1,0 +1,15 @@
+This directory will contain the following logic:
+
+The student will be able to complete the following:
+
+1) Set a timer for their session
+    a) What is preferred:
+        the student is provided the time based on the study-session they
+        have established at x time
+        
+    b) Log in their relevant course-work/the content they will be reviewing for x duration
+
+2) Once the session has ended: log in the time they have completed
+
+    c) save this information to a data-base
+
