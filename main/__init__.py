@@ -6,7 +6,9 @@ import json
 app = Flask(__name__)
 
 # A dictionary to store student data
-students = {}
+students = {
+    "student_id": ""
+}
 
 
 @app.route('/create_study_session', methods=['POST'])
@@ -45,15 +47,18 @@ def set_goals():
     # This function will handle setting goals for students
     pass
 
+
 @app.route('/log_time', methods=['POST'])
 def log_time():
     # This function will handle logging time and activities for students
     pass
 
+
 @app.route('/generate_commit_history', methods=['GET'])
 def generate_commit_history():
     # This function will generate a commit history for each student
     pass
+
 
 @app.route('/integrate_apps', methods=['POST'])
 def integrate_apps():
@@ -66,5 +71,6 @@ def use_ai():
     # This function will handle the use of AI and ML to enhance the app's functionality and user experience
     pass
 
-if __name__ == '__main__':
+
+if __name__ == '__init__':
     app.run(debug=True)
