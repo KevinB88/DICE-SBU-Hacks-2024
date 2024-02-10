@@ -11,6 +11,7 @@ class Pomodoro:
         self.is_break_time = False
         self.timer = None  # To keep track of the timer thread
         self.time_left = 0  # To keep track of the time left in seconds
+        self.running = True
 
     def start_timer(self):
         # Stop the previous timer if it exists
@@ -32,6 +33,8 @@ class Pomodoro:
         global progress_bar
         self.time_left -= 1
         progress_bar['value'] = self.time_left
+        if self.running:
+            progress_bar['value'] = self.time_left
         # Check if the time is up
         if self.time_left == 0:
             self.toggle_break()
@@ -93,6 +96,25 @@ def skip_to_study():
     global pomodoro_obj
     if pomodoro_obj:
         pomodoro_obj.skip_to_study()
+
+
+class Main(tk.Tk):
+    def __init__(self):
+        # Existing code
+        # ...
+
+        # Bind a function to the window closing event
+        super().__init__()
+        self.protocol("WM_DELETE_WINDOW", self.on_closing)
+
+    # Define the on_closing function
+    def on_closing(self):
+        # Set the flag to False
+        pomodoro_obj.running = False
+        # Wait for the thread to finish
+        pomodoro_obj.timer.join()
+        # Destroy the window
+        self.destroy()
 
 
 # Create a new Tkinter window

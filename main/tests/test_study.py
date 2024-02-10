@@ -3,6 +3,9 @@ import json
 import tkinter as tk
 from main import app
 from main.models import Student
+from main.tests import session, database
+from pomodoro import Pomodoro
+from session import Session
 
 #Implement a GUI using Tkinter for the following student object in the following matter:
 
@@ -24,7 +27,7 @@ class StudyTestCase(unittest.TestCase):
 
     def test_create_study_session(self):
         # Create a new student
-        student = Student(email=1, name='Test Student')
+        student = Student(email=1, name='Test Student', courses='test1, test2')
 
         # Define the study session data
         session_data = {
@@ -33,6 +36,23 @@ class StudyTestCase(unittest.TestCase):
             'study_interval': 25,
             'break_interval': 5
         }
+
+
+        #add student details into database
+        conn = database.create_connection()
+        database.create_table(conn)
+        database.insert_student(conn, student.email, student.name, student.courses)
+
+        student = database.get_student(conn, student.email)
+        print(student)
+
+        students = database.get_all_students(conn)
+        print(students)
+
+        #begin pomodoro timer
+        pomodoro = Pomodoro(session_data['study_interval'], session_data['break_interval'])
+
+
 
         # Send a POST request to the create_study_session route
         response = self.client.post('/create_study_session', data=json.dumps(session_data), content_type='application/json')
