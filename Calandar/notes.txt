@@ -1,0 +1,23 @@
+Extensions for SQL-lite
+
+SQLite Encryption Extension
+SQLCipher
+
+
+important notes about SQL-lite:
+Access control must be managed at the file system level or by the application logic,
+which makes it essential to secure the environment in which the database file resides.
+
+Other frameworks to consider:
+
+Flask
+
+
+Important advancements: 1:02 AM:
+
+SQLite Browser (DB Browser for SQLite):
+
+executing data-base queries in a readable format
+
+SQLite Browser (DB Browser for SQLite):
+    Execute commands directly to the data-base in question.

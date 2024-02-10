@@ -1,0 +1,67 @@
+10:05AM
+
+XP-Achievement system:
+
+The pts can be broken up into: Full, Separate
+
+Full: collectively across all classes
+
+Separate: Each class receives their own score
+
+When the student completes a task/assignment they are rewarded pts
+
+Two conditions:
+
+The student completes a task/assignment before a due-date:
+-They are rewarded points * some multiplier
+-Otherwise they earn the default number of pts
+
+A "Streak" a student is able to maintain a streak:
+
+For each subsequent day they complete: the score multiples
+by some amount, and it reaches a max amount:
+
+Perhaps the multiplier goes from 1 to 2.25
+Each day the multiplier increases in increments of .25
+
+Finalizing task:
+Save the data to a data-base.
+
+Possible data-bases:
+
+PostgreSQL: Open-source object-relational data-base
+
+Google Cloud SQL's free tier for students
+
+
+
+
+
+Additional feature:
+Generate a stat-table for the student
+
+
+
+
+
+Priority-System:
+
+Database options;
+
+Storing the information that a user-enforces
+to be a priority.
+
+The priority of the course is defined by its color:
+
+An index from: Darkest color (5) -> Lightest color (1)
+
+This information will then be linked to the
+schedule generation.
+
+
+
+
+
+
+
+

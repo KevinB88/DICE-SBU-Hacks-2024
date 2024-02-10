@@ -1,14 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="38333f27-9a20-4f15-b1ea-d73789729fba" name="Changes" comment="" />
+    <list default="true" id="38333f27-9a20-4f15-b1ea-d73789729fba" name="Changes" comment="added test">
+      <change afterPath="$PROJECT_DIR$/PrioritySelection/Priority-input.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrioritySelection/Priority-logic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracking-Test/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracking-Test/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracking-Test/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tracking-Test/tracking.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/XP-Achievements-backend/XP-Achievements-styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/XP-Achievements-backend/XP-Achievements.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/XP-Achievements-backend/XP-Achivements-Logic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/XP-Achievements-backend/XP-Home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/XP-Achievements-backend/XP-Register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/XP-Achievements-backend/XP-notes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calandar/LayeredQueries.py" beforeDir="false" afterPath="$PROJECT_DIR$/Calandar/LayeredQueries.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calandar/QueryTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Calandar/QueryTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calandar/SessionGUI.py" beforeDir="false" afterPath="$PROJECT_DIR$/Calandar/SessionGUI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calandar/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Calandar/notes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/StartPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/StartPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/StartPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/StartPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study-Session/aesthetic-test-styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Study-Session/aesthetic-test-styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study-Session/aesthetic-test.html" beforeDir="false" afterPath="$PROJECT_DIR$/Study-Session/aesthetic-test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study-Session/study-session-notes" beforeDir="false" afterPath="$PROJECT_DIR$/Study-Session/study-session-notes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study-Session/study-session-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Study-Session/study-session-style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "KevinB88"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="0344f1cc-ff54-46c3-907f-6aa797a04952" />
+        <option name="url" value="https://github.com/KevinB88/DICE-SBU-Hacks-2024.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 3
@@ -21,11 +74,72 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Python.LayeredQueries.executor": "Run",
+    "Python.QueryTest.executor": "Run",
+    "Python.XP-Achivements-Logic.executor": "Run",
+    "Python.study-session.executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.tracking-logic.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/kbedoya88/Desktop/PROJECTS24/SBU-Hacks-2024/SBU_Hack_2024_repo/DICE-Hack2024/Study-Session/Session-page-test",
+    "settings.editor.selected.configurable": "settings.sync"
   }
 }]]></component>
+  <component name="QodanaHighlightedReportService">
+    <option name="localRunNotPublishedPersistedInfo">
+      <LocalReportPersistedInfo>
+        <option name="path" value="/private/var/folders/cq/hx6gy_hn2l1fkc2cm5qrhw3c0000gn/T/qodana_output/qodana.sarif.json" />
+        <option name="reportGuid" value="f8561a88-4b37-4d96-aa60-4c539deb29c3" />
+        <option name="reportName" value="DICE-Hack2024/qodana/2024-02-10" />
+      </LocalReportPersistedInfo>
+    </option>
+  </component>
+  <component name="QodanaIsSelectedPersistenceService">
+    <option name="selectedOrLoading" value="true" />
+  </component>
+  <component name="QodanaReportsService">
+    <option name="descriptions">
+      <ReportDescription localRun="true" path="/private/var/folders/cq/hx6gy_hn2l1fkc2cm5qrhw3c0000gn/T/qodana_output/qodana.sarif.json" reportGuid="f8561a88-4b37-4d96-aa60-4c539deb29c3" reportId="DICE-Hack2024/qodana/2024-02-10" />
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Study-Session/Session-page-test" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="tracking" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DICE-Hack2024" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tracking-Test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tracking-Test/tracking.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.tracking-logic" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -42,6 +156,50 @@
       <option name="presentableId" value="Default" />
       <updated>1707532571566</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1707532924960</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1707532924960</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added test">
+      <option name="closed" value="true" />
+      <created>1707533310630</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1707533310630</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="added test" />
+    <option name="LAST_COMMIT_MESSAGE" value="added test" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Calandar/LayeredQueries.py</url>
+          <line>54</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

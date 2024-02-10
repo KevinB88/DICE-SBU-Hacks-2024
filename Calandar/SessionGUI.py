@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import messagebox
 
 
-class Session:
+class SessionGUI:
     def __init__(self, root):
         self.root = root
         self.root.title("Study Session Tracker")
@@ -43,7 +43,7 @@ class Session:
     def create_session(self):
         # Create a new Session instance with input values
         try:
-            self.session = Session(
+            self.session = SessionGUI(
                 id=int(self.id_entry.get()),
                 student_id=self.student_id_entry.get(),
                 goals=self.goals_entry.get(),

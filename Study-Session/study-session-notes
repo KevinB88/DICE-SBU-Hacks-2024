@@ -13,3 +13,53 @@ The student will be able to complete the following:
 
     c) save this information to a data-base
 
+
+8:30 AM Personal note:
+
+Progression required:
+
+Sign-up page -> storing user information via data-base (possible)
+
+If this is a user's first time in the site: query for classes:
+
+information for the courses
+
+    Course list:
+
+        Assumed for weekly:
+
+        Course:
+        Credit amount:
+        Date(s):
+
+    Student credit hours (considering the max and the min)
+
+    Optional input:
+
+        The user is prompted with the option to include
+        priority dates/assignment dates:
+
+            Implement a priority-queue:
+
+            The most recent event of highest priority determined by its color:
+
+            Darkest(high priority) - Lightest (low priority)
+            from a scale of 5 to 1
+
+     *Necessary feature:
+
+     When the user inputs their exam date:
+
+     A series of suggested study times will generate.
+
+     an algorithm to determine the most optimal times to select
+
+
+
+
+Take the user to the calender:
+
+
+
+
+

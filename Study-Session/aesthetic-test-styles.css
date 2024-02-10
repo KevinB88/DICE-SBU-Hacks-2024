@@ -1,0 +1,23 @@
+body {
+    font-family: \'Ubuntu', sans-serif; /* Edit font */
+    background-color: #ecebf6
+    ; /* Edit background */
+}
+
+.content {
+    padding: 20px;
+    background-color: #FFFFFF; /* Edit content background */
+    border-radius: 55px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 40px;
+}
+
+h1 {
+    color: royalblue; /* Edit font color */
+    font-size: 30px; /* Edit font size */
+}
+
+p {
+    color: #666666; /* Edit font color */
+    line-height: 1.6; /* Edit line spacing */
+}
