@@ -5,30 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38333f27-9a20-4f15-b1ea-d73789729fba" name="Changes" comment="added test">
-      <change afterPath="$PROJECT_DIR$/PrioritySelection/Priority-input.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrioritySelection/Priority-logic.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tracking-Test/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tracking-Test/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tracking-Test/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tracking-Test/tracking.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XP-Achievements-backend/XP-Achievements-styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XP-Achievements-backend/XP-Achievements.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XP-Achievements-backend/XP-Achivements-Logic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XP-Achievements-backend/XP-Home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XP-Achievements-backend/XP-Register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XP-Achievements-backend/XP-notes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calandar/LayeredQueries.py" beforeDir="false" afterPath="$PROJECT_DIR$/Calandar/LayeredQueries.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calandar/QueryTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Calandar/QueryTest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calandar/SessionGUI.py" beforeDir="false" afterPath="$PROJECT_DIR$/Calandar/SessionGUI.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calandar/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Calandar/notes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/StartPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/StartPage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/StartPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/StartPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study-Session/aesthetic-test-styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Study-Session/aesthetic-test-styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study-Session/aesthetic-test.html" beforeDir="false" afterPath="$PROJECT_DIR$/Study-Session/aesthetic-test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study-Session/study-session-notes" beforeDir="false" afterPath="$PROJECT_DIR$/Study-Session/study-session-notes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study-Session/study-session-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Study-Session/study-session-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XP-Achievements-backend/XP-Achievements-styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/XP-Achievements-backend/XP-Achievements-styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XP-Achievements-backend/XP-Achievements.html" beforeDir="false" afterPath="$PROJECT_DIR$/XP-Achievements-backend/XP-Achievements.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XP-Achievements-backend/XP-Achivements-Logic.py" beforeDir="false" afterPath="$PROJECT_DIR$/XP-Achievements-backend/XP-Achivements-Logic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XP-Achievements-backend/XP-Home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XP-Achievements-backend/XP-Register.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
