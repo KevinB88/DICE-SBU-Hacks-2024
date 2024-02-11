@@ -1,27 +1,54 @@
 * {
 	box-sizing: border-box;
 }
-
 html {
-    padding-top:50px;
+    height: 100%; /* Ensure the html element covers the full height */
+    background: #bdcee0; /* Set the background color to black */
+    padding-top: 50px;
 }
-
-
 
 body {
-    border: 8px solid royalblue;
-    border-radius: 20px;
+    position: relative;
+    border: 11px solid royalblue;
     padding: 40px;
-    width: 60%;
-    height: 400px;
+    width: 70%;
+    height: 425px;
     margin: 0 auto;
-    /*background: url('https://www.goodfreephotos.com/albums/other-photos/angel-entering-heaven-with-light.jpg');*/
+    background: white;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.5);
+    border-radius: 500px;
 }
 
+
+select{
+    padding: 10px 15px;
+    border: 1px solid #bbbbbb; /* Adjust border color as needed */
+    background: #ffffff;
+    box-shadow: 0px 2px 9px rgba(0,0,0,0.15);
+    border-radius: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    color: #757575;
+}
+
+/* Style focus state for dropdowns */
+select:focus {
+    outline: none;
+    border-color: #4b545f;
+    box-shadow: 0 0 10px rgba(0,0,0,0.25);
+}
+
+/* Hover state for dropdowns (if needed, could be replaced with a class) */
+select:hover {
+    border-color: #4b545f;
+}
+
+
 #clock {
+    background: none;
     height:120px;
-    font-size: 40px;
-    font-family: arial;
+    font-size: 55px;
+    font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
     display: flex;
     justify-content: center;
@@ -31,16 +58,18 @@ body {
 
 h2 {
 	text-align:center;
-  
+
 
 }
 
 #alarm-container {
 	text-align:center;
     font-family: Verdana;
-    font-size: 0.6em;
-    padding: 0.7em;
-  color: white;
+    font-size: 0.7em;
+    padding: 0.6em;
+    background: none;
+    color: royalblue;
+
 }
 
 label {
@@ -61,15 +90,21 @@ label {
     padding-top: 20px;
 }
 
+/*
+delete below
+*/
+#setButton, #clearButton {
+    position: absolute;
+    bottom: 20px; /* Adjust this value to position the buttons from the bottom edge of the rectangle */
+    padding: 10px 40px;
+    /* Other styles... */
+}
+
 #setButton {
-    float:left;
-    background-color:royalblue;
-    margin-top:10px;
+    left: 150px;
 }
 #clearButton {
-    float:right;
-    background-color:red;
-    margin-top:10px;
+    right: 150px;
 }
 
 #setButton{
@@ -110,3 +145,5 @@ label {
     background: lightsteelblue;
     color: #000;
 }
+
+
