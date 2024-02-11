@@ -1,80 +1,6 @@
 body {
-    background-color: #ecebf6;
-    font-family: 'Ubuntu', sans-serif;
-}
-/*this is where the code starts*/
-body,
-html{
-    width: 100vw;
-    height: 100vw;
-    overflow: hidden;
     background-color: lightsteelblue;
-}
-
-.mode-tog{
-    background-color: rgba(31, 51, 119, 0.71);
-    position: absolute;
-    right: 50px;
-    top: 50px;
-    cursor: pointer;
-    width: 20px;
-    height: 20px;
-    z-index: 2;
-    transition: 1000ms;
-    border-radius: 50%;
-}
-
-.menu-tog-active{
-    background-color: white;
-    transition: 1000ms;
-}
-
-.container{
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    right: 50px;
-    top: 50px;
-    width: 20px;
-    height: 20px;
-}
-
-.dark-mode{
-    position: fixed; /* Ensures the element is fixed to the viewport */
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 100vw;
-    height: 100vh;
-    transform: scale(0);
-    border-radius: 0%; /* Adjust if you want a circular reveal effect */
-    background-color: #174264;
-    transition: transform 1000ms ease-in-out;
-    display: flex;
-    flex: 0 0 auto;
-    z-index: 1; /* Ensures it's above the main content but below modal/dialog elements if any */
-}
-
-.dark-mode.active{
-    transform: scale(1); /* Adjust the scale as needed to cover the entire screen */
-}
-/*recheck this color just in case*/
-h1{
-    color: white;
-    mix-blend-mode: difference;
-    position: absolute;
-    left: 50%;
-    top: 40%;
-    transform: translateX(-50%);
-}
-
-@media screen and (max-width: 600px){
-    .dark-mode{
-        width: 250vh;
-        height: 250vh;
-    }
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .main {
@@ -113,8 +39,6 @@ h1{
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
 }
-
-
 
 .un:focus, .pass:focus {
     border: 2px solid rgba(0, 0, 0, 0.18);
@@ -216,4 +140,5 @@ a {
 }
 
 
-/*night mode slider*/
+
+
