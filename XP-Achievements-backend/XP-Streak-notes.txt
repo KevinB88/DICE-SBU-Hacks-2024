@@ -1,0 +1,9 @@
+3:17PM:
+
+Points and streak system:
+
+After a student completes their session they are rewarded with points.
+
+Store this to some SQL-lite date-base.
+
+
