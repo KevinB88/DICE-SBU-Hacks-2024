@@ -4,7 +4,7 @@ body, html {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #c3cfde;
+    background-color: lightsteelblue;
 }
 
 .wrapper {
@@ -44,19 +44,6 @@ form input{
 }
 
 /*button*/
-
-select {
-    color: rgb(38, 50, 56); /* A color that contrasts with the background */
-    background: rgba(136, 126, 126, 0.3); /* A background that ensures text is legible */
-    /* Add other styles as needed to match your design */
-}
-
-/* Adjust styles for options within select dropdown */
-select option {
-    color: rgb(38, 50, 56); /* Ensure text is visible against the background */
-    background: white; /* Optionally set a background color for options */
-}
-
 .time-selection {
     display: flex; /* Use Flexbox */
     justify-content: center; /* Center items horizontally */
@@ -67,7 +54,7 @@ select option {
 #dayButton, #hourSelect, #minuteSelect {
     cursor: pointer;
     border-radius: 5em;
-    color: #fff;
+    color: #fff; /* Keeps the button text white */
     background: linear-gradient(to right, royalblue, steelblue);
     border: 0;
     padding: 10px 20px; /* Adjusted padding for uniform appearance */
@@ -76,6 +63,12 @@ select option {
     box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
     flex-grow: 1; /* Allows items to grow to fill the space */
     /* Removed width:auto; and margin:0; since flex-grow is used */
+}
+
+/* This targets the options within the dropdowns to ensure they have black text */
+#hourSelect option, #minuteSelect option {
+    color: black; /* Makes the dropdown numbers black */
+    background-color: white; /* Optional: Ensures the dropdown has a white background */
 }
 
 #dayButton {
@@ -114,7 +107,7 @@ select option {
 
 
 #addClassButton:hover {
-    background: #acc2e0;
+    background: lightsteelblue;
     color: #000;
 }
 
