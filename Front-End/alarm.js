@@ -1,6 +1,6 @@
 
 
-var sound = new Audio("https://www.freespecialeffects.co.uk/soundfx/animals/duck1.wav");
+var sound = new Audio("Victory sound effects (no copyright).mp3");
 		sound.loop = true;
 
 var h2 = document.getElementById('clock');
