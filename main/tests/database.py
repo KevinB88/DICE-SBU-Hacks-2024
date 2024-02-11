@@ -12,7 +12,8 @@ def create_table(conn):
         CREATE TABLE IF NOT EXISTS students (
             email TEXT PRIMARY KEY,
             name TEXT,
-            courses TEXT
+            courses DICT
+            goals TEXT
         )
     ''')
     conn.commit()

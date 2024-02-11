@@ -35,6 +35,7 @@ class Pomodoro:
         progress_bar['value'] = self.time_left
         if self.running:
             progress_bar['value'] = self.time_left
+            print (self.time_left)
         # Check if the time is up
         if self.time_left == 0:
             self.toggle_break()
@@ -75,6 +76,7 @@ def start_pomodoro():
     global pomodoro_obj
     pomodoro_obj = pomodoro
     pomodoro.start_timer()
+
 
 
 def add_five_minutes():
