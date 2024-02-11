@@ -1,5 +1,6 @@
 from flask import Blueprint, request
-from models import Student, Session
+from student import Student
+from session import Session
 
 study = Blueprint('study', __name__)
 
@@ -13,7 +14,7 @@ def create_study_session():
     break_interval = data.get('break_interval')
 
     # Create a new study session
-    session = Session(email=None, student_email=student_email, goals=goals, study_interval=study_interval,
+    session = Session(email=None, goals=goals, study_interval=study_interval,
                       break_interval=break_interval)
 
     # Add the session to the student's data

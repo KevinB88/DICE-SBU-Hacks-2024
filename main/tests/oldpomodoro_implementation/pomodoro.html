@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pomodoro Timer</title>
+    <style>
+        /* Add some CSS styles for the web page */
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        h1 {
+            color: green;
+        }
+        p {
+            font-size: 24px;
+        }
+        input {
+            width: 50px;
+        }
+        button {
+            margin: 10px;
+        }
+        #timer {
+            font-size: 48px;
+            color: red;
+        }
+    </style>
+    <script>
+        // Add some JavaScript code for the web page
+        // Define a function to update the timer display
+        function updateTimer() {
+            // Get the timer element by its id
+            var timer = document.getElementById("timer");
+            // Check if the pomodoro object exists
+            if ({{ pomodoro }}) {
+                // Get the time left from the pomodoro object
+                var timeLeft = {{ pomodoro.time_left }};
+                // Convert the time left to minutes and seconds
+                var minutes = Math.floor(timeLeft / 60);
+                var seconds = timeLeft % 60;
+                // Format the time left as mm:ss
+                var timeString = minutes.toString().padStart(2, "0") + ":" + seconds.toString().padStart(2, "0");
+                // Set the timer text to the time string
+                timer.textContent = timeString;
+                // Check if the time is up
+                if (timeLeft == 0) {
+                    // Toggle the break flag and start a new timer
+                    {{ pomodoro.toggle_break() }};
+                }
+            } else {
+                // Set the timer text to 00:00
+                timer.textContent = "00:00";
+            }
+        }
+        // Define a function to start the pomodoro timer
+        function startPomodoro() {
+            // Get the study and break intervals from the input elements
+            var studyInterval = document.getElementById("study_interval").value;
+            var breakInterval = document.getElementById("break_interval").value;
+            // Send a request to the start_pomodoro route with the intervals as query parameters
+            var xhr = new XMLHttpRequest();
+            xhr.open("GET", "/start_pomodoro?study_interval=" + studyInterval + "&break_interval=" + breakInterval);
+            xhr.send();
+            // Update the timer display
+            updateTimer();
+        }
+        // Define a function to add five minutes to the current interval
+        function addFiveMinutes() {
+            // Send a request to the add_five_minutes route
+            var xhr = new XMLHttpRequest();
+            xhr.open("GET", "/add_five_minutes");
+            xhr.send();
+            // Update the timer display
+            updateTimer();
+        }
+        // Define a function to skip to the break interval
+        function skipToBreak() {
+            // Send a request to the skip_to_break route
+            var xhr = new XMLHttpRequest();
+            xhr.open("GET", "/skip_to_break");
+            xhr.send();
+            // Update the timer display
+            updateTimer();
+        }
+        // Define a function to skip to the study interval
+        function skipToStudy() {
+            // Send a request to the skip_to_study route
+            var xhr = new XMLHttpRequest();
+            xhr.open("GET", "/skip_to_study");
+            xhr.send();
+            // Update the timer display
+            updateTimer();
+        }
+        // Set an interval to update the timer display every second
+        setInterval(updateTimer, 1000);
+    </script>
+</head>
+<body>
+    <h1>Pomodoro Timer</h1>
+    <p>Enter the study and break intervals in minutes:</p>
+    <input type="number" id="study_interval" value="25">
+    <input type="number" id="break_interval" value="5">
+    <button onclick="startPomodoro()">Start</button>
+    <p>Current timer:</p>
+    <p id="timer">00:00</p>
+    <button onclick="addFiveMinutes()">Add 5 minutes</button>
+    <button onclick="skipToBreak()">Skip to break</button>
+    <button onclick="skipToStudy()">Skip to study</button>
+</body>
+</html>

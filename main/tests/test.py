@@ -6,7 +6,6 @@ database.insert_student(conn, 'student2@example.com', 'test student', 'math, eng
 
 student = database.get_student(conn, 'student2@example.com')
 print(student)
-
 students = database.get_all_students(conn)
 print(students)
 

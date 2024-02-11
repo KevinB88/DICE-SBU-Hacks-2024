@@ -1,11 +1,9 @@
 import unittest
 import json
-import tkinter as tk
 from main import app
 from main.models import Student
-from main.tests import session, database
-from pomodoro import Pomodoro
-from session import Session
+from main.tests import database
+from main.tests.oldpomodoro_implementation.pomodoro import Pomodoro
 
 #Implement a GUI using Tkinter for the following student object in the following matter:
 

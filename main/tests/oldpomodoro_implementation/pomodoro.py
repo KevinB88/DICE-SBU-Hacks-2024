@@ -1,3 +1,4 @@
+'''
 import tkinter as tk
 import tkinter.ttk as ttk
 import time
@@ -147,7 +148,7 @@ progress_bar = tk.ttk.Progressbar(window, orient=tk.HORIZONTAL, length=300, mode
 study_interval_label.pack()
 study_interval_entry.pack()
 break_interval_label.pack()
-break_interval_entry.pack()
+break_interval_entry.pack()can you
 start_button.pack()
 add_button.pack()
 skip_break_button.pack()
@@ -156,3 +157,93 @@ progress_bar.pack()
 
 # Start the Tkinter event loop
 window.mainloop()
+'''
+
+# Import the Flask module
+from flask import Flask, render_template, request
+import json
+
+
+class Pomodoro:
+    def __init__(self, study_interval, break_interval):
+        self.study_interval = study_interval
+        self.break_interval = break_interval
+        self.is_break_time = False
+        self.timer = None  # To keep track of the timer thread
+        self.time_left = 0  # To keep track of the time left in seconds
+        self.running = True
+
+
+# Create a Flask app object
+app = Flask(__name__)
+
+# Define a global variable to store the pomodoro object
+pomodoro_obj = None
+
+
+# Define a route for the home page
+@app.route("/")
+def home():
+    # Render the home.html template and pass the pomodoro object as a variable
+    return render_template("home.html", pomodoro=pomodoro_obj)
+
+
+# Define a route for the start_pomodoro function
+@app.route("/start_pomodoro")
+def start_pomodoro():
+    # Get the study and break intervals from the query parameters
+    study_interval = int(request.args.get("study_interval"))
+    break_interval = int(request.args.get("break_interval"))
+    # Create a pomodoro object and store it in the global variable
+    global pomodoro_obj
+    pomodoro_obj = Pomodoro(study_interval, break_interval)
+    # Start the pomodoro timer
+    pomodoro_obj.start_timer()
+    # Return a success message
+    return "Pomodoro started!"
+
+
+# Define a route for the add_five_minutes function
+@app.route("/add_five_minutes")
+def add_five_minutes():
+    # Call the add_five_minutes method of the pomodoro object
+    global pomodoro_obj
+    if pomodoro_obj:
+        pomodoro_obj.add_five_minutes()
+    # Return a success message
+    return "Five minutes added!"
+
+
+# Define a route for the skip_to_break function
+@app.route("/skip_to_break")
+def skip_to_break():
+    # Call the skip_to_break method of the pomodoro object
+    global pomodoro_obj
+    if pomodoro_obj:
+        pomodoro_obj.skip_to_break()
+    # Return a success message
+    return "Skipped to break!"
+
+
+# Define a route for the skip_to_study function
+@app.route("/skip_to_study")
+def skip_to_study():
+    # Call the skip_to_study method of the pomodoro object
+    global pomodoro_obj
+    if pomodoro_obj:
+        pomodoro_obj.skip_to_study()
+    # Return a success message
+    return "Skipped to study!"
+
+    def to_json(self):
+        # Convert the pomodoro object to a JSON object
+        return json.dumps({
+            "study_interval": self.study_interval,
+            "break_interval": self.break_interval,
+            "is_break_time": self.is_break_time,
+            "time_left": self.time_left
+        })
+
+# Run the app in debug mode
+if __name__ == "__main__":
+    app.run(debug=True)
