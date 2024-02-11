@@ -6,11 +6,25 @@
   <component name="ChangeListManager">
     <list default="true" id="38333f27-9a20-4f15-b1ea-d73789729fba" name="Changes" comment="added test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XP-Achievements-backend/XP-Achievements-styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/XP-Achievements-backend/XP-Achievements-styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XP-Achievements-backend/XP-Achievements.html" beforeDir="false" afterPath="$PROJECT_DIR$/XP-Achievements-backend/XP-Achievements.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XP-Achievements-backend/XP-Achivements-Logic.py" beforeDir="false" afterPath="$PROJECT_DIR$/XP-Achievements-backend/XP-Achivements-Logic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XP-Achievements-backend/XP-Home.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XP-Achievements-backend/XP-Register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrioritySelection/Priority-input.html" beforeDir="false" afterPath="$PROJECT_DIR$/**PrioritySelection/Priority-input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrioritySelection/Priority-logic.js" beforeDir="false" afterPath="$PROJECT_DIR$/**PrioritySelection/Priority-logic.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study-Session/Session-page-test/study-session-page-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/**Study-Session/Session-page-test/study-session-page-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study-Session/Session-page-test/study-session-page-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/**Study-Session/Session-page-test/study-session-page-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study-Session/aesthetic-test-styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/**Study-Session/aesthetic-test-styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study-Session/aesthetic-test.html" beforeDir="false" afterPath="$PROJECT_DIR$/**Study-Session/aesthetic-test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study-Session/study-session-logic.js" beforeDir="false" afterPath="$PROJECT_DIR$/**Study-Session/study-session-logic.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study-Session/study-session-notes" beforeDir="false" afterPath="$PROJECT_DIR$/**Study-Session/study-session-notes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study-Session/study-session-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/**Study-Session/study-session-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study-Session/study-session.html" beforeDir="false" afterPath="$PROJECT_DIR$/**Study-Session/study-session.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XP-Achievements-backend/XP-Score-Manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/**XP-Achievements-backend/XP-Score-Manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XP-Achievements-backend/XP-Streak-notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/**XP-Achievements-backend/XP-Streak-notes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XP-Achievements-backend/XP-notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/**XP-Achievements-backend/XP-notes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XP-Achievements-backend/static/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/**XP-Achievements-backend/static/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XP-Achievements-backend/templates/add_score.html" beforeDir="false" afterPath="$PROJECT_DIR$/**XP-Achievements-backend/templates/add_score.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XP-Achievements-backend/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/**XP-Achievements-backend/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XP-Achievements-backend/templates/scores.html" beforeDir="false" afterPath="$PROJECT_DIR$/**XP-Achievements-backend/templates/scores.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XP-Achievements-backend/templates/view_all.html" beforeDir="false" afterPath="$PROJECT_DIR$/**XP-Achievements-backend/templates/view_all.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XP-Achievements-backend/user_scores.db" beforeDir="false" afterPath="$PROJECT_DIR$/**XP-Achievements-backend/user_scores.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +34,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -43,7 +57,7 @@
     </option>
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 3
@@ -60,6 +74,7 @@
     "Python.LayeredQueries.executor": "Run",
     "Python.QueryTest.executor": "Run",
     "Python.XP-Achivements-Logic.executor": "Run",
+    "Python.XP-Score-Manage.executor": "Run",
     "Python.study-session.executor": "Run",
     "Python.test.executor": "Run",
     "Python.tracking-logic.executor": "Run",
@@ -92,8 +107,33 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Study-Session/Session-page-test" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/XP-Achievements-backend/templates" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.tracking-logic">
+    <configuration name="XP-Score-Manage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DICE-Hack2024" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/XP-Achievements-backend" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/XP-Achievements-backend/XP-Score-Manage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="tracking" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DICE-Hack2024" />
       <option name="ENV_FILES" value="" />
@@ -119,6 +159,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.tracking-logic" />
+        <item itemvalue="Python.XP-Score-Manage" />
       </list>
     </recent_temporary>
   </component>
@@ -180,6 +221,11 @@
           <url>file://$PROJECT_DIR$/Calandar/LayeredQueries.py</url>
           <line>54</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/**XP-Achievements-backend/XP-Score-Manage.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
